@@ -29,7 +29,13 @@ jobs:
 
       - name: Build CSS
         run: pnpm run bd
-
+        
+      - name: Upload the executables
+        uses: actions/upload-artifact@v2
+        with:
+          name: executables
+          path: "./"
+          
       - uses: ncipollo/release-action@v1
         with:
           artifacts: "./"
