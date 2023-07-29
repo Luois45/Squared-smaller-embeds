@@ -975,3 +975,26 @@ foreignObject[mask*="url(#"] {
     --radius-xxl: 0;
     --radius-round: 0;
 }
+
+.grid-1aWVsE {
+    display: grid;
+    grid-template-columns: 500px auto auto;
+    grid-template-rows: auto auto;
+}
+
+.embedTitle-2n1pEb {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    height: 10px
+}
+
+.imageContent-3Av-9c {
+    grid-column: 2/2;
+    grid-row: 1/3;
+    margin-left: 20px;
+    min-width: 50px !important;
+}
+
+.embedWrapper-1MtIDg {
+    min-width: 550px;
+}
