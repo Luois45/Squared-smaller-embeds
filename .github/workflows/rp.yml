@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: executables
-          path: dist/*.exe
+          path: "bundle/*, *.theme.css"
 
       - uses: ncipollo/release-action@v1
         with:
