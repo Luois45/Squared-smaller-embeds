@@ -2,8 +2,8 @@ name: "Build and deploy CSS for BetterDiscord"
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "v*"
 
 jobs:
   build:
@@ -29,10 +29,15 @@ jobs:
 
       - name: Build CSS
         run: pnpm run bd
-
-      - name: "Deploy"
-        uses: "peaceiris/actions-gh-pages@v3"
+        
+      - name: Upload the files
+        uses: actions/upload-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: "deploy"
-          publish_dir: "./"
+          name: executables
+          path: "./"
+          
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: "./"
+          makeLatest: true
+          generateReleaseNotes: true
