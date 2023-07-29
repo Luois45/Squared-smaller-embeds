@@ -31,6 +31,12 @@ jobs:
 
       - name: Build TypeScript and bundle into asar
         run: pnpm run rp
+        
+      - name: Upload the executables
+        uses: actions/upload-artifact@v2
+        with:
+          name: executables
+          path: dist/*.exe
 
       - uses: ncipollo/release-action@v1
         with:
