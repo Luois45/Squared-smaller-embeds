@@ -1,16 +1,16 @@
 {
-    "id": "net.saltssaumure.Squared",
-    "name": "Squared",
-    "description": "A round corner removing Discord theme.",
+    "id": "net.Luois45.Squared-smaller-embeds",
+    "name": "Squared-smaller-embeds",
+    "description": "A border-radius removing Discord theme with smaller embeds.",
     "author": {
-        "name": "Saltssaumure",
-        "discordID": "134142022092062720",
-        "github": "Saltssaumure"
+        "name": "Louis_45",
+        "discordID": "771355749220876310",
+        "github": "Luois45"
     },
     "version": "1.2.8",
     "updater": {
         "type": "store",
-        "id": "net.saltssaumure.Squared"
+        "id": "net.Luois45.Squared-smaller-embeds"
     },
     "license": "MIT",
     "type": "replugged-theme",
@@ -19,5 +19,5 @@
         "https://cdn.discordapp.com/attachments/946226984005025835/1129622992649986048/squared1.png",
         "https://cdn.discordapp.com/attachments/946226984005025835/1129622992922624121/squared2.png"
     ],
-    "source": "https://github.com/MiniDiscordThemes/Squared"
+    "source": "https://github.com/Luois45/Squared-smaller-embeds"
 }

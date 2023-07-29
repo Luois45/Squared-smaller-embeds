@@ -1,9 +1,9 @@
 {
-    "name": "squared-discord-theme",
+    "name": "squared-smaller-embeds-discord-theme",
     "version": "1.2.8",
-    "description": "A border-radius removing Discord theme.",
-    "repository": "https://github.com/MiniDiscordThemes/Squared.git",
-    "author": "Saltssaumure <saltssaumure@gmail.com>",
+    "description": "A border-radius removing Discord theme with smaller embeds.",
+    "repository": "https://github.com/Luois45/Squared-smaller-embeds.git",
+    "author": "Luois45 <github@louis45.de>",
     "license": "MIT",
     "private": true,
     "scripts": {
