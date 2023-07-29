@@ -32,7 +32,7 @@ jobs:
       - name: Build TypeScript and bundle into asar
         run: pnpm run rp
         
-      - name: Upload the executables
+      - name: Upload the files
         uses: actions/upload-artifact@v2
         with:
           name: executables
