@@ -1,14 +1,13 @@
 [screenshot]: https://github.com/Luois45/Squared-smaller-embeds/assets/58306774/10d76aba-7683-4a7b-a20b-290944dc3a10
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
-[discord]:          https://discord.gg/uy8nKQVatp
 
 [BetterDiscord]:    https://betterdiscord.app/
 [Replugged]:        https://replugged.dev/
 [Vencord]:          https://github.com/Vendicated/Vencord
 
 [shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
-[ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
+[ko-fi]:            https://ko-fi.com/louis45 "Buy me a coffee!"
 
 [shield-total-dl]:  https://img.shields.io/github/downloads/Luois45/Squared-smaller-embeds/Squared-smaller-embeds.theme.css?color=purple&label=BD%20GitHub%20downloads&style=flat-square
 [shield-asar-dl]:   https://img.shields.io/github/downloads/Luois45/Squared-smaller-embeds/net.Luois45.Squared-smaller-embeds.asar?color=purple&label=Replugged%20downloads&style=flat-square
@@ -61,4 +60,3 @@
 
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.
-- Post in `#theme-support` on [my support server][discord].
