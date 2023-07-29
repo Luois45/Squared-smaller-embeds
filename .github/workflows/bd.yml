@@ -30,7 +30,7 @@ jobs:
       - name: Build CSS
         run: pnpm run bd
         
-      - name: Upload the executables
+      - name: Upload the files
         uses: actions/upload-artifact@v2
         with:
           name: executables
