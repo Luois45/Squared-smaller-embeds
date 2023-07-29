@@ -1,4 +1,4 @@
-[screenshot]: https://user-images.githubusercontent.com/29710355/235375875-9faeffdb-0bbb-47aa-a1ba-6ab3d8045ecc.png
+[screenshot]: https://github.com/Luois45/Squared-smaller-embeds/assets/58306774/10d76aba-7683-4a7b-a20b-290944dc3a10
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [discord]:          https://discord.gg/uy8nKQVatp
