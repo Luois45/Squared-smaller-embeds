@@ -1,9 +1,9 @@
 {
-    "name": "squared-discord-theme",
+    "name": "squared-smaller-embeds-discord-theme",
     "version": "1.2.8",
-    "description": "A round corner removing Discord theme.",
-    "repository": "https://github.com/MiniDiscordThemes/Squared.git",
-    "author": "Saltssaumure <saltssaumure@gmail.com>",
+    "description": "A border-radius removing Discord theme with smaller embeds.",
+    "repository": "https://github.com/Luois45/Squared-smaller-embeds.git",
+    "author": "Luois45 <github@louis45.de>",
     "license": "MIT",
     "private": true,
     "scripts": {
@@ -15,12 +15,14 @@
     },
     "type": "module",
     "dependencies": {
-        "@parcel/config-default": "^2.9.3",
-        "@parcel/core": "^2.9.3",
-        "@parcel/transformer-sass": "^2.9.3",
-        "@types/node": "^20.4.5",
-        "prettier": "^3.0.0",
-        "replugged": "^4.5.1",
+        "@parcel/config-default": "^2.8.3",
+        "@parcel/core": "^2.8.3",
+        "@parcel/transformer-sass": "^2.8.3",
+        "@types/node": "^18.15.3",
+        "prettier": "^2.8.4",
         "salt-bd-scss": "^1.0.0"
+    },
+    "devDependencies": {
+        "replugged": "^4.3.1"
     }
 }
